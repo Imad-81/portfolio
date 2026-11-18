@@ -98,7 +98,7 @@ export default function BottomTimeline({
                     [{item.marker}]
                   </span>
                   <span
-                    className={`hidden sm:inline text-[11px] md:text-xs tracking-tight uppercase transition-colors duration-200 ${
+                    className={`hidden sm:inline text-[11px] md:text-xs tracking-tight uppercase transition-colors duration-200 max-w-[90px] md:max-w-[130px] lg:max-w-[180px] truncate ${
                       isActive
                         ? "font-medium text-black"
                         : "text-black/35 group-hover:text-black/70"

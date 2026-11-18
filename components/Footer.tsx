@@ -16,8 +16,8 @@ export default function Footer() {
             <span className="block font-mono text-[10px] tracking-[0.25em] text-black/40 uppercase mb-3 select-none">
               INDEX // IDENTIFIER
             </span>
-            <span className="text-5xl md:text-8xl font-black tracking-[-0.05em] uppercase text-[#0A0A0A] select-none leading-none">
-              {PROFILE.name}
+            <span className="text-3xl md:text-6xl lg:text-7xl font-black tracking-[-0.04em] uppercase text-[#0A0A0A] select-none leading-tight">
+              {PROFILE.fullName}
             </span>
           </div>
 
@@ -52,7 +52,7 @@ export default function Footer() {
 
           {/* Copyright notice */}
           <span className="text-black/40 tracking-widest uppercase">
-            © 2026 {PROFILE.name}. ALL RIGHTS RESERVED.
+            © 2026 {PROFILE.fullName}. ALL RIGHTS RESERVED.
           </span>
         </div>
 

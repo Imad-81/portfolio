@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <SmoothScroll>
-      <main className="relative w-full bg-[#F7F5F0] text-[#0A0A0A] overflow-x-hidden">
+      <main className="relative w-full bg-[#F7F5F0] text-[#0A0A0A] overflow-x-clip">
         {/* Scroll-driven Hero with continuous IMAD transformation */}
         <Hero />
 

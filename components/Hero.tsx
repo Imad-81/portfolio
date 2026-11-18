@@ -135,7 +135,7 @@ export default function Hero() {
         ref={nameRef}
         onClick={handleLogoClick}
         role="banner"
-        aria-label="Imad Portfolio Home"
+        aria-label={`${PROFILE.fullName} Portfolio Home`}
         className="fixed top-0 left-0 z-40 origin-top-left will-change-transform select-none cursor-pointer transition-opacity duration-200"
         style={{
           // Default initial positioning before JS metrics kick in
@@ -164,6 +164,11 @@ export default function Hero() {
             ref={subtitleRef}
             className="flex flex-col items-center text-center mt-36 md:mt-48 lg:mt-56 max-w-xl will-change-transform"
           >
+            {/* Full Name Badge */}
+            <span className="font-mono text-[11px] md:text-xs tracking-[0.32em] text-[#0A0A0A]/55 uppercase font-semibold mb-3 select-none">
+              {PROFILE.fullName}
+            </span>
+
             {/* Roles */}
             <p className="font-mono text-xs md:text-sm tracking-[0.28em] text-[#0A0A0A]/70 uppercase font-medium mb-8 select-none">
               {PROFILE.bioLine}

@@ -130,6 +130,8 @@ export default function ProjectsSection() {
                     <div>
                       <a
                         href={proj.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="group inline-flex items-center gap-2 text-xs md:text-sm font-mono tracking-widest uppercase font-semibold text-[#0A0A0A] hover:text-black/60 transition-colors py-1"
                       >
                         <span className="relative">

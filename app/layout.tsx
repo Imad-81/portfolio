@@ -15,13 +15,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "IMAD — Software Engineer · Builder · Tech Lead",
-  description: "Editorial personal portfolio and motion archive of Imad. Software Engineer, Builder, and Tech Lead.",
-  keywords: ["Imad", "Software Engineer", "Builder", "Tech Lead", "Portfolio", "Minimalist"],
-  authors: [{ name: "Imad" }],
+  title: "Shaik Imaduddin — Software Engineer · Builder · Tech Lead",
+  description: "Editorial personal portfolio and motion archive of Shaik Imaduddin. Software Engineer, Builder, and Tech Lead.",
+  keywords: ["Shaik Imaduddin", "Imad", "Software Engineer", "Builder", "Tech Lead", "Portfolio", "Minimalist"],
+  authors: [{ name: "Shaik Imaduddin" }],
   openGraph: {
-    title: "IMAD — Software Engineer · Builder · Tech Lead",
-    description: "Editorial personal portfolio and motion archive of Imad.",
+    title: "Shaik Imaduddin — Software Engineer · Builder · Tech Lead",
+    description: "Editorial personal portfolio and motion archive of Shaik Imaduddin.",
     type: "website",
   },
 };
